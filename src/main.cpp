@@ -11,5 +11,9 @@
 using namespace std;
 
 int main() {
-    
+    // Here I check the solutions
+
+    outputSomething();
+
+    return 0;
 }
