@@ -19,6 +19,8 @@ std::string getFullName(
 ) { 
     // And here is the task of concatenation
     return firstName + " " + lastName;
+    // In the book it was conceived that we should bring them to the consoleo the console
+    // printf(firstName + " " + lastName);
 }
 
 // # Solution 39
@@ -27,13 +29,13 @@ std::string getFullName(
 // a = {value}
 // b = {value}
 // c = {value}
-void outputSomething() {
+void outputNumberDeclaration() {
     // Here in the books the task of interpolation is not so difficult
     double a = 51234.212;
     double b = 32136.989;
     double c = 12578.901;
 
-    printf("\na = %f\n b = %f\n c = %f\n", a, b, c); 
+    printf("\na = %f\n b = %f\n c = %f\n", a, b, c);
 }
 
 // Rather, That all because in the section very boring tasks they are the same and solving them not to bring me the necessary knowledge

@@ -178,6 +178,54 @@ solutions/assignment-instrutions.cpp.s:
 	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/assignment-instrutions.cpp.s
 .PHONY : solutions/assignment-instrutions.cpp.s
 
+solutions/input.o: solutions/input.cpp.o
+.PHONY : solutions/input.o
+
+# target to build an object file
+solutions/input.cpp.o:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/input.cpp.o
+.PHONY : solutions/input.cpp.o
+
+solutions/input.i: solutions/input.cpp.i
+.PHONY : solutions/input.i
+
+# target to preprocess a source file
+solutions/input.cpp.i:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/input.cpp.i
+.PHONY : solutions/input.cpp.i
+
+solutions/input.s: solutions/input.cpp.s
+.PHONY : solutions/input.s
+
+# target to generate assembly for a file
+solutions/input.cpp.s:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/input.cpp.s
+.PHONY : solutions/input.cpp.s
+
+solutions/linear-structured-programs.o: solutions/linear-structured-programs.cpp.o
+.PHONY : solutions/linear-structured-programs.o
+
+# target to build an object file
+solutions/linear-structured-programs.cpp.o:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/linear-structured-programs.cpp.o
+.PHONY : solutions/linear-structured-programs.cpp.o
+
+solutions/linear-structured-programs.i: solutions/linear-structured-programs.cpp.i
+.PHONY : solutions/linear-structured-programs.i
+
+# target to preprocess a source file
+solutions/linear-structured-programs.cpp.i:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/linear-structured-programs.cpp.i
+.PHONY : solutions/linear-structured-programs.cpp.i
+
+solutions/linear-structured-programs.s: solutions/linear-structured-programs.cpp.s
+.PHONY : solutions/linear-structured-programs.s
+
+# target to generate assembly for a file
+solutions/linear-structured-programs.cpp.s:
+	cd /Users/krugleshock/Development/projects/solutions-from-book && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/solutions/linear-structured-programs.cpp.s
+.PHONY : solutions/linear-structured-programs.cpp.s
+
 solutions/output.o: solutions/output.cpp.o
 .PHONY : solutions/output.o
 
@@ -217,6 +265,12 @@ help:
 	@echo "... solutions/assignment-instrutions.o"
 	@echo "... solutions/assignment-instrutions.i"
 	@echo "... solutions/assignment-instrutions.s"
+	@echo "... solutions/input.o"
+	@echo "... solutions/input.i"
+	@echo "... solutions/input.s"
+	@echo "... solutions/linear-structured-programs.o"
+	@echo "... solutions/linear-structured-programs.i"
+	@echo "... solutions/linear-structured-programs.s"
 	@echo "... solutions/output.o"
 	@echo "... solutions/output.i"
 	@echo "... solutions/output.s"

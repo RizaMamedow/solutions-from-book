@@ -16,7 +16,12 @@ string getFullName(
     string firstName,
     string lastName
 ); 
-void outputSomething();
+void outputNumberDeclaration();
 
+// input.cpp functions;
+void inputRadius();
+
+// linear-structured-programs.cpp functions;
+void computeParallelogramSquare();
 
 #endif // SOLUTIONS_HPP
