@@ -37,7 +37,7 @@ void computeParallelogramSquare() {
     Task: Write a program for calculating the volume of parallelepiped.
     Below is the recommended type of screen during the execution of the program
 */
-void computeParallelepipedSquare() {
+void computeParallelepipedVolume() {
     float length;
     float width;
     float height;
@@ -51,7 +51,7 @@ void computeParallelepipedSquare() {
     printf("Set height (cm) -> ");
     scanf("%f", &height);
     
-    float square = length * width * height;
+    float volume = length * width * height;
 
-    printf("The volume of parallelepiped is %f (cm)\n", square);
+    printf("The volume of parallelepiped is %f (cm)\n", volume);
 }
