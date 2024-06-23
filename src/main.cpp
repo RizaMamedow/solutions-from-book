@@ -12,6 +12,6 @@ using namespace std;
 
 int main() {
     // Here I check the solutions
-    computeParallelogramSquare();
+    computeParallelepipedSquare();
     return 1;
 }

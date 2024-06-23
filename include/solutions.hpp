@@ -23,5 +23,6 @@ void inputRadius();
 
 // linear-structured-programs.cpp functions;
 void computeParallelogramSquare();
+void computeParallelepipedSquare();
 
 #endif // SOLUTIONS_HPP

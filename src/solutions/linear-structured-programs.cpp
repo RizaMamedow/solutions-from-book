@@ -28,5 +28,30 @@ void computeParallelogramSquare() {
     
     float square = length * width;
 
-    printf("Square of parallelogram is %f", square);
+    printf("Square of parallelogram is %f (cm)\n", square);
+}
+
+
+/*
+    # Solution 52
+    Task: Write a program for calculating the volume of parallelepiped.
+    Below is the recommended type of screen during the execution of the program
+*/
+void computeParallelepipedSquare() {
+    float length;
+    float width;
+    float height;
+
+    printf("Set length (cm) -> ");
+    scanf("%f", &length);
+
+    printf("Set width (cm) -> ");
+    scanf("%f", &width);
+
+    printf("Set height (cm) -> ");
+    scanf("%f", &height);
+    
+    float square = length * width * height;
+
+    printf("The volume of parallelepiped is %f (cm)\n", square);
 }
