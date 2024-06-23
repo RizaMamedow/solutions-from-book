@@ -15,8 +15,12 @@
     # Solution 51
     Task: Write a program for calculating the area of the parallelogram.
     Below is the recommended type of screen during the execution of the program
+
+    Set length (cm) -> 5
+    Set width (cm) -> 2
+    The area of parallelogram is 10
 */
-void computeParallelogramSquare() {
+void computeParallelogramArea() {
     float length;
     float width;
 
@@ -36,6 +40,11 @@ void computeParallelogramSquare() {
     # Solution 52
     Task: Write a program for calculating the volume of parallelepiped.
     Below is the recommended type of screen during the execution of the program
+
+    Set length (cm) -> 5
+    Set width (cm) -> 2
+    Set height (cm) -> 3
+    The volume of parallelepiped is 30
 */
 void computeParallelepipedVolume() {
     float length;
@@ -54,4 +63,38 @@ void computeParallelepipedVolume() {
     float volume = length * width * height;
 
     printf("The volume of parallelepiped is %f (cm)\n", volume);
+}
+
+
+/*
+    # Solution 53
+    Task: Write a program for calculating the surface area of ​​the parallelepiped.epiped.
+    Below is the recommended type of screen during the execution of the program.
+
+    Set length (cm) -> 5
+    Set width (cm) -> 2
+    Set height (cm) -> 3
+    The surface area of parallelipiped is 
+*/
+void computeParallelepipedSurfaceArea() {
+    float length;
+    float width;
+    float height;
+
+    printf("Set length (cm) -> ");
+    scanf("%f", &length);
+
+    printf("Set width (cm) -> ");
+    scanf("%f", &width);
+
+    printf("Set height (cm) -> ");
+    scanf("%f", &height);
+
+    // original formula is S = 2(ab+bc+ca)
+    // a - length
+    // b - width
+    // c - height
+    float area = 2 * ((length * width) + (width * height) + (length * height));
+
+    printf("The surface area of parallelepiped is %f (cm)\n", area);
 }

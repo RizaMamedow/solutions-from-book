@@ -12,6 +12,6 @@ using namespace std;
 
 int main() {
     // Here I check the solutions
-    computeParallelepipedSquare();
+    computeParallelepipedSurfaceArea();
     return 1;
 }

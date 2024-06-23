@@ -22,7 +22,8 @@ void outputNumberDeclaration();
 void inputRadius();
 
 // linear-structured-programs.cpp functions;
-void computeParallelogramSquare();
+void computeParallelogramArea();
 void computeParallelepipedVolume();
+void computeParallelepipedSurfaceArea();
 
 #endif // SOLUTIONS_HPP
