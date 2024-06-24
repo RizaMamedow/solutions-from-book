@@ -74,7 +74,7 @@ void computeParallelepipedVolume() {
     Set length (cm) -> 5
     Set width (cm) -> 2
     Set height (cm) -> 3
-    The surface area of parallelipiped is 
+    The surface area of parallelipiped is  
 */
 void computeParallelepipedSurfaceArea() {
     float length;
@@ -97,4 +97,26 @@ void computeParallelepipedSurfaceArea() {
     float area = 2 * ((length * width) + (width * height) + (length * height));
 
     printf("The surface area of parallelepiped is %f (cm)\n", area);
+}
+
+
+/* 
+    # Solution 54
+    Task: Write a program for calculating cube volume
+    Below is the recommended type of screen during the execution of the program.
+
+    Enter the length of the ribs of the cube (cm) -> 9.5
+
+    cube volume is 857.38 cm^3
+*/
+void computeCubeVolume() {
+    float length;
+
+    printf("Enter the length of the ribs of the cube (cm) -> ");
+    scanf("%f", &length);
+
+    float volume = pow(length, 3);
+
+    printf("Cube volume is %f", volume);
+
 }

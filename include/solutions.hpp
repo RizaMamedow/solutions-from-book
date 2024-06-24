@@ -25,5 +25,6 @@ void inputRadius();
 void computeParallelogramArea();
 void computeParallelepipedVolume();
 void computeParallelepipedSurfaceArea();
+void computeCubeVolume();
 
 #endif // SOLUTIONS_HPP
