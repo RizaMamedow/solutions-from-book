@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-    // Here I check the solutions
-    computeCubeVolume();
+    // Here I check the solutions 
+    computeCylinderVolume();
     return 1;
 }

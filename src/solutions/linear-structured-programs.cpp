@@ -21,8 +21,7 @@
     The area of parallelogram is 10
 */
 void computeParallelogramArea() {
-    float length;
-    float width;
+    float length, width;
 
     printf("Set length (cm) -> ");
     scanf("%f", &length);
@@ -47,9 +46,7 @@ void computeParallelogramArea() {
     The volume of parallelepiped is 30
 */
 void computeParallelepipedVolume() {
-    float length;
-    float width;
-    float height;
+    float length, width, height;
 
     printf("Set length (cm) -> ");
     scanf("%f", &length);
@@ -77,9 +74,7 @@ void computeParallelepipedVolume() {
     The surface area of parallelipiped is  
 */
 void computeParallelepipedSurfaceArea() {
-    float length;
-    float width;
-    float height;
+    float length, width, height;
 
     printf("Set length (cm) -> ");
     scanf("%f", &length);
@@ -118,5 +113,29 @@ void computeCubeVolume() {
     float volume = pow(length, 3);
 
     printf("Cube volume is %f", volume);
+}
 
+
+/*
+    # Solution 55
+    Task Write a program for calculationg cilindr volume.
+    Below is the recommended type of screen during the execution of the program.
+
+    Enter the radius of the base (cm) -> 5
+    Enter the cylinder height (cm) -> 10
+    
+    Cylinder volume is 785.398193  cube cm.
+*/
+void computeCylinderVolume() {
+    float raduis, height;
+    
+    printf("Enter the radius of the base (cm) -> ");
+    scanf("%f", &raduis);
+
+    printf("Enter the cylinder height (cm) ->");
+    scanf("%f", &height);
+
+    float volume = M_PI * pow(raduis, 2) * height;
+
+    printf("\nCylinder volume is %f cube cm.\n", volume);
 }

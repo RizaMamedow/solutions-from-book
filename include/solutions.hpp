@@ -26,5 +26,6 @@ void computeParallelogramArea();
 void computeParallelepipedVolume();
 void computeParallelepipedSurfaceArea();
 void computeCubeVolume();
+void computeCylinderVolume();
 
 #endif // SOLUTIONS_HPP
